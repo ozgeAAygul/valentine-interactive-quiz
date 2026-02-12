@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For you ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="intro" class="section">
+    <div class="intro-container">
+      <div class="hearts-top">❤️ 💕 ❤️</div>
+      <h1>Hazır mısın?</h1>
+      <p>Seni çok seviyorum cınımmm 💕</p>
+      <button id="startBtn" class="btn-start">Başla ✨</button>
+    </div>
+  </section>
+  
+  <section id="quiz" class="section hidden">
+    <div class="quiz-container">
+      <div class="progress">Soru <span id="current">1</span>/3</div>
+      <h2 id="question"></h2>
+      <div id="answer" class="answers-container"></div>
+    </div>
+  </section>
+
+  <section id="result" class="section hidden">
+    <div class="result-container">
+      <h2 id="finalMessage"></h2>
+      <button onclick="showLove()" class="btn-surprise">Son surpriz 💝</button>
+    </div>
+  </section>
+
+  <section id="love" class="section hidden">
+    <div class="love-container">
+      <div class="love-animation">💕</div>
+      <h1>iyiki sen ❤️</h1>
+      <div class="love-message">Seni seviyorum...</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
