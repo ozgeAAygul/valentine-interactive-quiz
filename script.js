@@ -23,7 +23,7 @@ const questions = [
   {
     question: "beni ne kadar seviyosun?",
     answers: ["çok", "çoooook"],
-    correct: "çok"
+    correct: "çoooook"
   }
 ];
 
